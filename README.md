@@ -1,13 +1,15 @@
 # Temporal Behavioral Patterns of the 24-Hour Activity Cycle Across Mental Disorders
 
----
+
 This repository provides the analysis pipeline supporting the study:
 
 **Shared and Distinct Temporal Behavioral Risk Patterns in Mental Disorders: A Transformer-Based Analysis of 24-Hour Activity Cycles**
 
 The project develops and applies the **Psychiatric Temporal Activity Risk Model (PTARM)**, a Transformer-based framework that decodes high-resolution temporal patterns of daily behavior derived from wearable accelerometers and links these behavioral clocks to the risk of 12 mental disorders. The pipeline further integrates multi-omics mediation analysis and Mendelian randomization to characterize biological pathways and causal effects, and derives population-level optimal 24-hour activity cycle (24-HAC) patterns through a contrastive optimization framework for individualized behavioral recommendation.
 
-![[网站_09.png]]
+```
+![Pipeline overview](Overview.png)
+```
 
 ---
 # Project Overview
@@ -49,7 +51,7 @@ Mental-disorder/
 
 ---
 # Core Components
----
+
 ## 1 .Psychiatric Temporal Activity Risk Model (PTARM)
 
 **Location:** `PTARM/`
@@ -116,7 +118,7 @@ This module derives population-level optimal 24-hour activity patterns through c
 
 ---
 # Installation
----
+
 ## Python Environment
 
 ```
@@ -139,13 +141,13 @@ Users must obtain and preprocess data in accordance with the access policies of 
 
 ---
 # Validation and Scope
----
+
 - PTARM performance was evaluated across 12 mental disorders
 - Generalizability was supported by population-level analyses using NHANES mortality data
 - External datasets were used to support robustness and biological  interpretation, not as strict clinical validation
 ---
 # Web Resource
----
+
 An interactive, open-access platform for exploring the temporal architecture of 24-hour activity behaviors across mental disorders is available at:
 
 **[http://nerve.zBiolab.cn](http://nerve.zBiolab.cn)**
