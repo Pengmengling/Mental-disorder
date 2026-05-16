@@ -7,7 +7,7 @@ This repository provides the analysis pipeline supporting the study:
 
 The project develops and applies the **Psychiatric Temporal Activity Risk Model (PTARM)**, a Transformer-based framework that decodes high-resolution temporal patterns of daily behavior derived from wearable accelerometers and links these behavioral clocks to the risk of 12 mental disorders. The pipeline further integrates multi-omics mediation analysis and Mendelian randomization to characterize biological pathways and causal effects, and derives population-level optimal 24-hour activity cycle (24-HAC) patterns through a contrastive optimization framework for individualized behavioral recommendation.
 
-[Pipeline overview](Overview.png)
+![Pipeline overview](Overview.png)
 
 ---
 # Project Overview
